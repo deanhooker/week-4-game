@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/cloudy-day.png");
+}
+div {
+    margin: 12px;
+    padding: 20px 10px;
+}
+
+h1 {
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+#title {
+    width: 265px;
+    background-color: goldenrod;
+    padding: 20px 10px;
+}
+
+#instructions {
+    width: 350px;
+    background-color: wheat;
+    color: green;
+}
+
+#goal-and-score {
+    position: relative;
+    padding: 0;
+}
+
+#goal-number, #score-tracker {
+    margin: 0px;
+    height: 100px;
+}
+
+#goal-number {
+    width: 200px;
+    background-color: seagreen;
+    color: purple;
+    font-size: 30px;
+    padding: 10px;
+}
+
+#score-tracker {
+    width: 100px;
+    background-color: deepskyblue;
+    position: absolute;
+    left: 210px;
+    top: 0;
+}
+
+.current-score-box {
+    width: 200px;
+    background-color: teal;
+    color: white;
+    padding: 10px;
+}
+
+#current-score-number {
+    height: 100px;
+    font-size: 30px;
+}
