@@ -54,6 +54,10 @@ h1 {
     top: 0;
 }
 
+.crystal-image {
+    width: 100px;
+}
+
 .current-score-box {
     width: 200px;
     background-color: teal;
