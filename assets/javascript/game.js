@@ -17,6 +17,7 @@ function resetGame() {
     crystalRed = Math.floor(Math.random() * 12 + 1);
     currentScore = 0;
     $("#goal-number-span").html(goalNumber);
+    $("#current-score").html(currentScore);
 }
 
 resetGame();
